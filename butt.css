@@ -1,0 +1,42 @@
+input#gallery{
+			width: 10%;
+			height: 25%;
+			font-size: 1.6vw;
+			color: beige;
+			background-color:#006374;
+			border: none;
+			position: absolute;
+			top:10%;
+			right: 27%;
+			z-index: 5;
+			box-shadow: 3px 3px 5px #111;
+		}
+		input#story{
+			width: 10%;
+			height: 25%;
+			font-size: 1.6vw;
+			color: beige;
+			background-color:#602030;
+			border: none;
+			position: absolute;
+			top:10%;
+			right: 16%;
+			z-index: 5;
+			box-shadow: 3px 3px 5px #111;
+		}
+		input#awards{
+			width: 10%;
+			height: 25%;
+			font-size: 1.6vw;
+			color: beige;
+			background-color:#006374;
+			border: none;
+			position: absolute;
+			top:10%;
+			right: 5%;
+			z-index:5;
+			box-shadow: 3px 3px 5px #111;
+		}
+		input:hover{
+			transform: scale(1.1);
+		}

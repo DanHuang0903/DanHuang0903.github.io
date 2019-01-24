@@ -1,0 +1,162 @@
+div#back{
+			width:100%;
+			height: 110%;
+			position: absolute;
+			top: 0%;
+			left: 0%;
+			z-index: 1;
+		}
+		
+		#flag2{
+			width:100%;
+			height: 10;
+			position: absolute;
+			bottom:2%;
+			left: 0%;
+		}
+		div#transbox{
+			width:100%;
+			height:18%;
+			position:fixed;
+			top:0%;
+			left:0%;
+			background-color:#734A12;
+			opacity: 0.9;
+			z-index: 5;
+			
+		}
+		
+		#a5{
+			
+			text-decoration: none;
+			font-size: 1.3vw;
+			font-family:fantasy;
+			color: beige;
+			text-shadow: 3px 3px 5px #111;
+			
+			
+		}
+		
+		#menu5{
+			position: absolute;
+			top:66%;
+			right: 45%;
+			width: 7%;
+			height: 20%;
+		}
+		#a4{
+			text-decoration: none;
+			font-size: 1.3vw;
+			font-family:fantasy;
+			color: beige;
+			text-shadow: 3px 3px 5px #111;
+		}
+		#menu4{
+			position: absolute;
+			top:66%;
+			right: 35%;
+			width: 7%;
+			height: 20%;
+		}
+		
+		#a1{
+		
+			text-decoration: none;
+			font-size: 1.3vw;
+			font-family:fantasy;
+			color: beige;
+			text-shadow: 3px 3px 5px #111;
+		}
+		#menu1{
+			position: absolute;
+			top:66%;
+			right: 25%;
+			width: 7%;
+			height: 20%;
+		}
+		#a2{
+		
+			text-decoration: none;
+			font-size: 1.3vw;
+			font-family:fantasy;
+			color: beige;
+			text-shadow: 3px 3px 5px #111;
+		}
+		#menu2{
+			position: absolute;
+			top:66%;
+			right: 14%;
+			width: 7%;
+			height: 20%;
+		}
+		#a3{
+		
+			text-decoration: none;
+			font-size: 1.3vw;
+			font-family:fantasy;
+			color: beige;
+			text-shadow: 3px 3px 5px #111;
+		}
+		#menu3{
+			position: absolute;
+			top:66%;
+			right: 3%;
+			width: 7%;
+			height: 20%;
+		}
+
+#entrance:hover  {
+			transform: rotate(-10deg);
+		}
+
+		#entrance:hover #tooltip {
+           margin:-25vw 0 0 -1.5vw;
+           -webkit-transition: margin .15s ease-in-out;
+  			-moz-transition: margin .15s ease-in-out;}
+
+		#arrow {
+  			position:absolute;
+  			margin:1vw 0 0 3vw;
+			width: 0; 
+			height: 0; 
+			border-left: 1vw solid transparent;
+			border-right: 1vw solid transparent;
+			border-top: 1vw solid #fff;
+
+		}
+		
+		@keyframes bounce {
+			0%,100%{
+				left:18%;
+	}
+			
+			45%{
+				left:14%;
+			
+			}
+			55%{
+				left:18%;
+			}
+			59%{
+				left: 16%;
+			}
+			63%{
+				left:18%;
+			}
+			67%{
+				left:17%;
+			}
+			71%{
+				left: 18%;
+			}
+			
+		}
+			
+		
+		#hoverover {
+			position: absolute;
+			animation: 1.5s bounce infinite ease-in;
+			
+			
+		}
+		
