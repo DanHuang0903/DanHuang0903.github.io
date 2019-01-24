@@ -1,0 +1,241 @@
+<html>
+    <head>
+        <title>Weihua Huang</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+		
+		<meta name="apple-touch-fullscreen" content="YES">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link type="text/css" rel="stylesheet" href="test.css" />
+		<link type="text/css" rel="stylesheet" href="mainPage.css" />
+		<link type="text/css" rel="stylesheet" href="meetMe.css" />
+		<link type="text/css" rel="stylesheet" href="link+liangshan.css" />
+		<link type="text/css" rel="stylesheet" href="awd+cont.css" />
+		<link type="text/css" rel="stylesheet" href="boxes.css" />
+		<link type="text/css" rel="stylesheet" href="butt.css" />
+		
+        
+    </head>
+	
+	<script src="mainBut.js"></script>
+	<script src="button.js"></script>
+	<script src="contact.js"></script>
+	<script src="colorEvent.js"></script>
+	<script src ="clearAll.js"></script>
+	<script src="play.js"></script>
+	<script src = "storyShow.js"></script>
+	<script type="text/javascript">
+
+		var num=0;
+    	function zan(){
+        num ++;
+        //document.write(num);
+        document.getElementById("zan").innerHTML=num;
+    	}
+		
+		
+		</script>
+	
+    <body>
+	
+        <div id="transbox">
+			<img src="IMG_2766.PNG" width="16%" height="107%" style="position: absolute;top: 5%; left: 2%;">
+			<input type="button" value="GALLERY" id="gallery" onclick='dogallery()' onmousemove="docolor(this)" onmouseout="doNorm(this)">
+			<input type="button" value="STORY" id="story" onclick="dostory()" onmousemove="docolor(this)" onmouseout="doNorm(this)">
+			<input type="button" value="AWARDS" id="awards" onclick="doawards()" onmousemove="docolor(this)" onmouseout="doNorm(this)">
+			<input type="button" value="AWARDS" id="awards" onclick="doawards()" onmousemove="docolor(this)" onmouseout="doNorm(this)">
+			
+			<span id="menu1">
+			<a href="#flag4" id="a1" onmousemove="doYellow(this)" onmouseout="doBeige(this)" onclick="clearAll()">VOLUNTEER</a>
+			</span>
+			<span id="menu4">
+			<a href="https://sites.google.com/view/gallerywh/%E9%A6%96%E9%A1%B5" target="_blank" id="a4" onmousemove="doYellow(this)" onmouseout="doBeige(this)" onclick="clearAll()">PORTFOLIO</a>
+			</span>
+			
+			<span id="menu5">
+			<a href="#flag2" id="a5" onmousemove="doYellow(this)" onmouseout="doBeige(this)" onclick="clearAll()">MEET ME</a>
+			</span>
+			
+		<span id="menu3">
+			<a href="#flag3" id="a3" onmousemove="doYellow(this)" onmouseout="doBeige(this)" onclick="clearAll()">CONTACT</a>
+			</span>
+		<span id="menu2">
+			<a href="https://www.news.com.au/travel/world-travel/asia/why-chengdu-is-suddenly-the-place-everyone-wants-to-visit/news-story/14bd4eaa10de3a9fe013a6caa1155747" target="_blank" id="a2" onmousemove="doYellow(this)" onmouseout="doBeige(this)">HOMETOWN</a>
+			</span>
+		</div>
+		
+		<div id="back">
+			<button id="btn" onclick="zan()" style="position: absolute;top: 80%;right: 5%;display: none">zan<img src="" alt=""></button><span id="zan" style="position: absolute;top: 80%;right: 8%"></span>
+			
+			<div id="entrance" style="float: left;width: 10%;height: 15%;position: absolute;bottom: 12%;left: 6%;" onmouseover="closetxt()">
+				<img id="cam" src="069bd5136cf7a25dcc3c4fde2fde6358.png" width="100%" height="100%" style="margin-top: 10;">
+				
+				<div id="tooltip" >
+					<p>Click <b>GALLERY</b> to play or close the gallery.</p>
+					<p>Click <b>STORY</b> to share my experiences.</p>
+  					<div id="arrow" ></div>
+  				</div>
+			</div>
+			<div   id="hoverover" style="position: absolute; bottom: 13%;left: 8%">
+					<h1 style="font-family: cursive; font-size: 1.9vw;color:beige;text-shadow: 3px 3px 5px #111;">Check me out</h1>
+				</div>
+		 	<img src="2073127168.jpg" width="100%" height="100%" >
+			<div id='flag2'></div>
+		</div>
+
+		
+		
+		<div id="links">
+			<div id="flag4" style="width: 100%;height: 10;position: absolute;bottom: 34%;left: 0%"></div>
+			<h1 style="position: absolute; top:10%; left: 5%; color:#00477D; font-size: 3.2vw; font-family: sans-serif; display: block">You can find me in these organizations</h1>
+			
+			<a href="http://www.shangtuf.com/user/show/393.htm" target="_blank" style="position: absolute; top: 40%; left: 10%; color:#00477D; font-family: sans-serif; font-size: 1.6vw; text-decoration: none;" onmousemove="doRed(this)" onmouseout="doBlue(this)">SHANG TU FANG (CHINA)</a>
+			<a href="http://rps.org/" target="_blank" style="position: absolute; top: 50%; left: 10%; color:#00477D; font-family: sans-serif; font-size: 1.6vw; text-decoration: none;" onmousemove="doRed(this)" onmouseout="doBlue(this)">Royal Photographic Society (United Kingdom)</a>
+			<a href="https://www.gpuphoto.com/" target="_blank" style="position: absolute; top: 60%; left: 10%; color:#00477D; font-family: sans-serif; font-size: 1.6vw; text-decoration: none;" onmousemove="doRed(this)" onmouseout="doBlue(this)">Global Photographic Union</a>
+			<a href="http://www.psachina.org/channels/455_17.html" target="_blank" style="position: absolute; top: 70%; left: 10%; color:#00477D; font-family: sans-serif; font-size: 1.6vw; text-decoration: none;" onmousemove="doRed(this)" onmouseout="doBlue(this)">Photographic Society of America.China Section (United States)</a>
+			<img src="crest.png" style="position: absolute; top: 15%;right: 8%; width: 13%;height: 45%;">
+			<img src='logo.jpg' style="position: absolute; top: 67%;right: 8%; width: 13%;height: 20%;">
+			<img src='gpu.png' style="position: absolute; top: 58%;right: 24%; width: 9%;height: 30%;">
+			<img src='download.jpeg' style="position: absolute; top: 18%;right: 24%; width: 9%;height: 30%;">
+		</div>
+
+		
+		<div id="profile">
+			<div id="margins"></div>
+			<img src="huangweihua.jpg" id='hwh'/>
+			<div id="txt">
+				<div style="position: absolute; top: 0%;left: 0%;width: 100%;height: 30%;">
+				<h1 style="font-family: sans-serif; font-size: 2.5vw; color:#602030; text-decoration: underline">NOT ONLY A PHOTOGRAHER</h1>
+				<h1 style="font-family: sans-serif; font-size: 2.5vw; color:#602030; text-decoration: underline">BUT ALSO A LIFE RECORDER</h1>
+				</div>
+				<div style="position: absolute; top: 30%;left: 0%;width: 100%;height: 70%;">
+					<p style="font-family: sans-serif; font-size: 1.55vw;; color:#00477D; text-overflow: scroll ">My name is Weihua Huang. I was born and raised in China.The art of photography is part of my life. As an amateur photographer, I lay my footprints on many fabulous places with beautiful scenery, astonishing landscapes, charming people, and inspiring culture. Currently, I am member of Global Photographic Union, Royal Photographic Society, and Photographic Society of America (China). Since April 2016, I have been actively participating 30+ international shows and contests for photography and received nominations for 160+ of my artefacts. Multiple photographs of mine were granted gold and silver medals, prizes from the nominating committee, and honor belt awards. It is my dream to see, record, read, and understand the unknown Chinese lands and cultures through my lenses, and to open an exhibition of my work under the theme of “A Different China”.</p>
+				<p style="font-family: sans-serif; font-size: 1.55vw;; color:#00477D"> </p>
+				</div>
+				
+			</div>
+		</div>
+		<div id="langshan">
+			<img src="IMG_3575.JPG" style="width: 100%;height: 100%"/>
+			<div id='logo' style="position: absolute; top: 5%;left: 5%; width: 20%; height: 30%; background-color:#804050 ">
+				<h1 style="position: absolute;top: 5%;left: 8%;font-family: sans-serif;font-size: 2vw;">TO BE</h1>
+				<h1 style="position: absolute;top: 35%;left: 8%;font-family: sans-serif;font-size: 2vw;">A VOLUNTEER</h1>
+				<h1 style="position: absolute;top: 65%;left: 8%;font-family: sans-serif;font-size: 2vw;">IN LIANGSHAN</h1>
+			</div>
+			<h1 style="position: absolute; top: 30%;left: 5%; font-family: sans-serif; font-size: 7.1vw; color:#006374">MORE</h1>
+			<h1 style="position: absolute; top: 55%;left: 5%; font-family: sans-serif; font-size: 5.4vw; color:#006374">THEN   A</h1>
+			<h1 style="position: absolute; top: 70%;left: 5%; font-family: sans-serif; font-size: 7.1vw; color:#006374">PHOTOGRAPHER</h1>
+			
+		</div>
+		
+		<div id="liangshanTxt">
+			<div id="flag"></div>
+			<h1 style="position: absolute; top: 5%;left: 5%;font-family: sans-serif;font-size: 3vw;color: beige">ABOUT LIANGSHAN</h1>
+			<h2 style="position: absolute;top: 24%;left: 5%;font-family:sans-serif;font-size:1.5vw;color: beige;margin-right: 15px;">Liangshan Yi Autonomous Prefecture in Sichuan is located in Southwest Mountain Range in China. It is the largest traditional settlement of minority people known as “Yi” in China with more than two million Yi inhabitants. It is a beautiful place which is an ideal land for a photographer. But it is also the most poverty-stricken areas in the country. During years, I visited Liangshan more than ten times. Not only to take photographes, but also to help the poeple there, especially the children and elders.</h2>
+		</div>
+		<div id="liangshanPro">
+			<h1 style="position: absolute; top: 5%;left: 5%;font-family: sans-serif;font-size: 3vw;color: beige">CARE ABOUT THEM</h1>
+			<a href="https://www.chinaaidsfund.org/?page_id=269" style="position: absolute; top: 29%;left: 5%;font-family: sans-serif;font-size: 1.6vw;color: beige" onmousemove="doYellow(this)" onmouseout="doBeige(this)">EDUCATIONAL SUPPORT FOR HIV CHILDREN</a>
+			<a href="http://www.chinawhisper.com/another-road-to-take-what-is-life-like-in-a-local-ngo-in-liangshan-sichuan/" target="_blank"; style="position: absolute; top: 39%;left: 5%;font-family: sans-serif;font-size: 1.6vw;color: beige" onmousemove="doYellow(this)" onmouseout="doBeige(this)">A NGO VOLUNTEER IN LIANGSHAN</a>
+			<a href="http://www.chinadaily.com.cn/china/2011-03/01/content_12092742.htm" target="_blank"; style="position: absolute; top: 49%;left: 5%;font-family: sans-serif;font-size: 1.6vw;color: beige" onmousemove="doYellow(this)" onmouseout="doBeige(this)">HELP FOR SHUNNED VILLAGE</a>
+			<a href="http://www.sixthtone.com/news/1002158/how-we-help-bring-medicine-to-chinas-remote-mountain-areas" target="_blank"; style="position: absolute; top: 59%;left: 5%;font-family: sans-serif;font-size: 1.6vw;color: beige" onmousemove="doYellow(this)" onmouseout="doBeige(this)">BRING MEDICINE TO THE REMOTE MOUNTAIN AREAS</a>
+			<a href="http://www.coolmountainfund.com/Wordpress/" target="_blank"; style="position: absolute; top: 69%;left: 5%;font-family: sans-serif;font-size: 1.6vw;color: beige" onmousemove="doYellow(this)" onmouseout="doBeige(this)">COOL MOUNTAIN EDUCATION FUND</a>
+		</div>
+		<div id="box" >
+        <ul>
+          <li><img src="215040048.jpg" width="97%" height="94%"></li>
+          <li><img src="39338503.jpg" width="97%" height="94%"></li>
+          <li><img src="1210779036.jpg" width="97%" height="94%"></li>
+          <li><img src="IMG_4027.jpg" width="97%" height="94%"></li>
+		  <li><img src="IMG_2747.jpg" width="97%" height="94%"></li>
+		  <li><img src="IMG_2746.jpg" width="97%" height="94%"></li>
+		  <li><img src="IMG_8948.jpg" width="97%" height="94%"></li>
+		  <li><img src="IMG_4025.jpg" width="97%" height="94%"></li>
+		  <li><img src="IMG_6297.jpg" width="97%" height="94%"></li>
+		
+        </ul>
+ 		</div>
+		<div id="box5" >
+			<input type="button" value="Share" id="next3" onclick="nxt(this)">
+			<h1 style="font-family: sans-serif; font-size: 5vw; color:beige; margin-top: 15%; text-align: center; text-shadow: 5px 5px 5px #111">Experiences</h1>
+			<h1 style="font-family: sans-serif; font-size: 4vw; color:beige; margin-top: 1%; text-align: center;text-shadow: 5px 5px 5px #111">are meant to be shared with others</h1>
+			
+			
+		</div>
+		<div id="box2" onmouseover ="dispTxt(this)" onmouseout="noTxt(this)">
+			<input type="button" value="Next" id="next" onclick="nxt(this)">
+			<div id="st1" style="position: absolute;top: 5%; right: 10%;font-family: sans-serif;font-size: 4vw;font-weight: 800; color:#006374"> TWO
+			</div>
+			<div id="st2" style="position: absolute;top: 25%; right: 10%;font-family: sans-serif;font-size: 4vw;font-weight: 800; color:#006374"> DIFFERENT
+			</div>
+			<div id="st3" style="position: absolute;top: 45%; right: 10%;font-family: sans-serif;font-size: 4vw;font-weight: 800; color:#006374"> IMPRESIVE
+			</div>
+			<div id="st4" style="position: absolute;top: 65%; right: 10%;font-family: sans-serif;font-size: 4vw;font-weight: 800; color:#602030"> STORIES
+			</div>
+			
+			<img src="IMG_3574.JPG" id="box2img" width = "22%" height="38%" >
+			<img src="IMG_9661.JPG" id="box2img2" width="22%" height="38%" >
+			<div class="fade-in-words" id="ss1" style="position: absolute;top: 5%;left: 5%;width: 100%;height: 85%;display: none" >
+				<div class="first-words" style="position: absolute;top: 2%;left: 22%;width: 30%;height: 15%; font-family: sans-serif;font-size: 2vw;text-align: center">Deep in the mountains</div>
+            	<div class="second-words" style="position: absolute;top: 12%;left: 22%;width: 32%;height: 39%;font-family: sans-serif;font-size: 1.2vw;text-align:justify;">In December 2015, I went through Jiulong County, Ganzi Prefecture, Meigu County, Liangshan prefecture. These two prefectures belong to the western part of Sichuan Province, and are inhabited by Tibetans and Yi ethnic groups. Nowadays almost all the young people there in the mountains have gone out to work, some of them will come back, others will settle down in cities, and only the olds and the children are left in the depths of the mountains. It's seems to be the fate of the people there. I've been caring about their living environment and status and have been offering voluntary help for years. And I trying to capture them by taking photos of ethnic groups, individuals and nature, society, and recording their joys and sorrows, serenity and restlessness. Found behind it the poverty and satisfaction, loss and longing for the coexistence of feelings and human beauty. I want to show you what I see, what I feel, what I know. In this mood, I shot a group of works of "Deep in the Mountains". </div>
+       
+            	<div class="third-words" style="position: absolute;top: 2%;left: 58%;width: 32%;height:15%; font-family:sans-serif;font-size: 2vw;text-align:center;15%">Things Beyond Laguages</div>
+            	<div class="five-words" style="position: absolute;top: 12%;left: 58%;width: 32%;height: 24%;font-family: sans-serif;font-size: 1.2vw;text-align:justify">In 2018, I came to Iceland for the first time. Here, I met the magical aurora, explored the majestic glaciers, and met the thing beyond the boundaries of language.My lens records the extreme climate here, as well as the breathtaking scenery, and of course the friendship that does not require language. In an unfamiliar environment, I met two photographers from Spain. They didn't speak Chinese, and I didn't speak Spanish. The only thing we could communicate with each other was the works of us. The most amazing this was that even those who couldn't communicate with words became good friends because of photography. We faced extreme days and helped each other through the inaccessible danger. Because of the languages, I didn't even know their names. I could only use the lens to record these two friends who transcended the language boundaries. Hobbies are so wonderful and full of magic.</div>
+            	
+			</div>
+		</div>
+		
+		
+
+		<div id="awdsIntro" style="width: 100%; height: 40%; position: absolute;top: 410%; left: 0%;">
+			<h1 style="position: absolute;top: 8%;left: 5%; font-family: sans-serif;font-size: 3vw;color: #526394">Award Is Never A Goal, But The Inspiration </h1>
+			<p style="position: absolute;top: 28%;left: 5%; font-family: sans-serif;font-size: 1.6vw;color: #526394; margin-right: 5%">I always believe that the pasion is the most important thing of doing everythin, like photography. I would like to consider awards as the approval of my pasion. Although I have obtained some awards in the past years, my goal is still photography itself. </p>
+		</div>
+		
+		<div id="awds">
+			<div id="flag3"></div>
+			<div id="awd1">
+				<h1 style="font-family: sans-serif; font-size: 2.3vw; color:#804050;position: absolute;top: 0%;left:17%;"> 2016 CHINESE ART GOLDEN HORSE AWARD</h1>
+				<h2 style="font-family: sans-serif; font-size: 2vw; color:#526394;position: absolute;top: 15%;left:17%;">First time to be the candidate of this award</h2>
+				<div style="position: absolute; top: 29%;left: 17%; width: 80%;height: 50%">
+				<p style="font-family: sans-serif; font-size: 1.5vw; color:#526394;">The Golden Horse Award of Chinese Art is to honor the artists who have made outstanding achievements in the field of Chinese art. The winners must first win the highest prize in the authoritative art activities and competitions at home and abroad before they have the basic qualifications to apply for the Golden Horse Award of Chinese Art. I was honored to be one of a hundrend candidates of this award. This was my very first time to get involed in a grand competition with many prominent photographers.</p>
+				</div>
+				<img src="IMG_9685.JPG" id="awd1img"/>
+				<input type="button"  value="READ MORE" style="font-family: sans-serif;font-size: 1.5vw;background-color:#006374; color: beige;position: absolute;bottom: 5%;right: 0%;float:right" onclick="awdlinkone()">
+				<input type="button"  value="ABOUT AWARD" style="font-family: sans-serif;font-size: 1.5vw;background-color:#006374; color: beige;position: absolute;bottom: 5%;right: 15%;" onclick="awdlinkone2()">
+				
+			</div>
+			<div id="awd2">
+				<img src="IMG_9677.JPG" style="position: absolute;top: 10%;left: 0%; width: 15%;height: 85%;"/>
+				<h1 style="font-family: sans-serif; font-size: 2.3vw;color: 	#526394;position: absolute;top: 0%;left:17%;"> 2017 ART GOLDEN HORSE AWARD</h1>
+				<h2 style="font-family: sans-serif; font-size: 2vw; color:#526394;position: absolute;top: 15%;left:17%;">TROPHY WINNER</h2>
+				
+				<p style="font-family: sans-serif; font-size: 1.5vw; color:#526394;position: absolute;top: 30%;left:17%;">In 2017, I had a significant break. My work "the Old Woman and the Sheep", which won the PSA gold medal of the Color Open Group at the second Black Mountain ZETA International Photography Exhibition in 2017, gained the chinese art golden horse award.</p>
+				<input type="button"  value="READ MORE" style="font-family: sans-serif;font-size: 1.5vw;background-color:#006374; color: beige;position: absolute;bottom: 5%;right: 0%;float:right" onclick="awdlinktwo()">
+			</div>
+			<div id="awd3">
+				<h1 style="font-family: sans-serif; font-size: 2.3vw; color:#804050;font-family: sans-serif">Award-Winning Overview</h1>
+				<div style="position: absolute;top:12%;left: 0%;width:90%;height: 90%;line-height: 1.6vw;white-space: pre-line;">
+				<p style="font-family: sans-serif; font-size: 1.2vw; color:#526394">2016 International Exhibition of Armenia's “Travel Around the World” Color Open Group of the APNA Gold Medal&#10;2016 Slovenian “Impression Pannonia” International Photography Exhibition Color Digital Open Group FIAP Gold Medal&#10;2016 Egypt "Decisive Instant" Photo Contest Digital Open Group IUP Award&#10;2017 Moldova International Photography Exhibition Tour Photography Group Salon Special Medal&#10;2017 Bulgarian Photo Contest Color Open Group PSA Award&#10;2017 American Photography Association Digital Open International Photography Exhibition Black and White Open Group PSA Silver and Color Open Group PSA Awards&#10;2017 Singapore Lion City International Photography Salon Tour Black and White Digital Open Group IUP Silver&#10;2018 German DVF three-way tour international photography exhibition black and white open group award</p>
+				
+				</div>
+			</div>
+		</div>
+		
+		<div id="contact">
+			<div id="contactTxt" style="position: absolute;top: 6%;left: 30%;width: 15%;height: 55%;">
+				<h1 style="position: absolute;top:0%;left: 10%;font-family: sans-serif;font-size: 4.8vw;color:#00477D;border: 1px solid #00477D;box-shadow: 3px 3px 5px #111">We're All Friends</h1>
+			</div>
+			<div id="info" style="width: 30%;height: 55%; position: absolute;top: 9%;left:50%;">
+				<h1 id="add" style="position: absolute;top:5%;left: 5%;font-family: sans-serif;font-size: 1.9vw;color:#00477D;">6 Wuding Road, Chengdu, Sichuan, China 610031</h1>
+				<h1 id="qq" style="position: absolute;top:51%;left: 5%;font-family: sans-serif;font-size: 1.9vw;color:#00477D;">QQ:1234556</h1>
+				<a id="email" href="Mailto:maggiexuiscute@gmail.com" style="position: absolute;top:38%;left: 5%;font-family: sans-serif;font-size: 1.9vw;color:#00477D;">Email:maggiexuiscute@gmail.com</a>
+				<img id="addimg" src="IMG_2763.PNG" width="13%" height="20%" style="position: absolute; bottom:5%;left: 5%" onmousemove ="doChange(this)" onmouseout="doBack(this)">
+				<img id="emailimg" src="IMG_2764.PNG" width="13%" height="20%" style="position: absolute; bottom:5%;left: 35%" onmousemove ="doChange(this)" onmouseout="doBack(this)">
+				<img id="qqimg" src="IMG_2765.PNG" width="13%" height="20%" style="position: absolute; bottom:5%;left: 65%" onmousemove ="doChange(this)" onmouseout="doBack(this)">
+			</div>
+		</div>
+		
+		
+    </body>
+</html>
